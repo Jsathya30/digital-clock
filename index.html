@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="clock.css" rel="stylesheet">
+	 <link href="media.css" rel="stylesheet">
+	 
+	 <title>Digital clock</title>
+</head>
+<body>
+    <section id="clock">
+
+   <div class="container">
+     <div class="clock-row">
+       <div class="parent">
+	       <h2>Date <span id="date"></span></h2>
+		   <h2>Month <span id="month"></span></h2>
+		   <h2>Year <span id="year"></span></h2>
+	   </div>
+   
+       <div class="parent">
+	       <h2>Hour <span id="hour"></span></h2>
+		   <h2>Minutes <span id="minute"></span></h2>
+		   <h2>Seconds <span id="sec"></span></h2>
+	   </div>
+	   <div class="parent">
+	     <h3><input type="radio" name="day" value="0">Sun</h3>
+		 <h3><input type="radio" name="day" value="1">Mon</h3>
+		 <h3><input type="radio" name="day" value="2">Tue</h3>
+		 <h3><input type="radio" name="day" value="3">Wed</h3>
+		 <h3><input type="radio" name="day" value="4">Thu</h3>
+		 <h3><input type="radio" name="day" value="5">Fri</h3>
+		 <h3><input type="radio" name="day" value="6">Sat</h3>
+	   </div>
+	   <div class="timezone">
+	    <h4><input type="radio" name="time">AM</h4><br>
+		<h4><input type="radio" name="time">PM</h4>
+	   </div>
+	  </div>
+    </div>
+	</section>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

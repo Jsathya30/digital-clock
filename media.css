@@ -1,0 +1,55 @@
+/* Mobile-view */
+
+@media(min-width:320px){
+	.container{
+	width:90%;
+	margin:auto;
+	height:50vh;
+	}
+	.clock-row{
+	
+	height:50vh;
+	padding:20px;}
+.timezone{
+	
+	top:85%;
+	}
+}
+
+
+
+/* tab-view */
+@media(min-width:760px){
+	.container{
+	width:40%;
+	margin:auto;
+	height:40vh;
+	}
+	.clock-row{
+	border:1px solid white;
+	height:40vh;
+	padding:20px;
+	}
+.timezone{
+	
+	top:80%;
+	}
+}
+
+/* desktop-view */
+@media(min-width:980px){
+	.container{
+	width:40%;
+	margin:auto;
+	height:60vh;
+	}
+	.clock-row{
+	border:1px solid white;
+	height:60vh;
+	padding:40px;
+	}
+.timezone{
+	
+	top:80%;
+	}
+}
